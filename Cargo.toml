@@ -12,7 +12,7 @@
 [package]
 edition = "2018"
 name = "userfaultfd-sys"
-version = "0.4.3"
+version = "0.5.0"
 authors = ["The Wasmtime Project Developers"]
 build = "build.rs"
 description = "Low-level bindings for userfaultfd functionality on Linux."
@@ -23,7 +23,7 @@ repository = "https://github.com/bytecodealliance/userfaultfd-rs"
 version = "^1.0.0"
 
 [build-dependencies.bindgen]
-version = "^0.60.1"
+version = "^0.68.1"
 features = ["runtime"]
 default-features = false
 
