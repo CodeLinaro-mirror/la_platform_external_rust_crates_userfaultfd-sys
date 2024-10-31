@@ -6,10 +6,6 @@ use std::path::PathBuf;
 
 fn main() {
     generate_bindings();
-
-    cc::Build::new()
-        .file("src/consts.c")
-        .compile("userfaultfd_sys_consts");
 }
 
 fn generate_bindings() {
